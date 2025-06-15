@@ -1,0 +1,62 @@
+[ {
+  "id" : "E001",
+  "nom" : "BOUBOU",
+  "email" : "REMOVED_EMAIL",
+  "notificationsRecues" : [ ],
+  "canauxAbonnes" : [ "CONSOLE" ],
+  "estAbonneService" : true
+}, {
+  "id" : "E002",
+  "nom" : "Issa",
+  "email" : "REMOVED_EMAIL",
+  "notificationsRecues" : [ {
+    "message" : "MERCI",
+    "nomExpediteur" : "BOUBOU",
+    "canalUtilise" : "CONSOLE",
+    "dateEnvoi" : [ 2025, 6, 13, 11, 13, 25, 928044900 ]
+  }, {
+    "message" : "MERCI",
+    "nomExpediteur" : "BOUBOU",
+    "canalUtilise" : "EMAIL",
+    "dateEnvoi" : [ 2025, 6, 13, 11, 13, 28, 644477900 ]
+  }, {
+    "message" : "BONJOUR COMMENT VA-TU?",
+    "nomExpediteur" : "BOUBOU",
+    "canalUtilise" : "CONSOLE",
+    "dateEnvoi" : [ 2025, 6, 13, 12, 2, 3, 649618500 ]
+  }, {
+    "message" : "BONJOUR COMMENT VA-TU?",
+    "nomExpediteur" : "BOUBOU",
+    "canalUtilise" : "EMAIL",
+    "dateEnvoi" : [ 2025, 6, 13, 12, 2, 6, 865745500 ]
+  }, {
+    "message" : "MERCI ISSA POUR LE SERVICE RENDU ",
+    "nomExpediteur" : "BOUBOU",
+    "canalUtilise" : "CONSOLE",
+    "dateEnvoi" : [ 2025, 6, 14, 18, 2, 36, 19277700 ]
+  }, {
+    "message" : "MERCI ISSA POUR LE SERVICE RENDU ",
+    "nomExpediteur" : "BOUBOU",
+    "canalUtilise" : "EMAIL",
+    "dateEnvoi" : [ 2025, 6, 14, 18, 2, 40, 385455700 ]
+  }, {
+    "message" : "ISSA TU TE FOUS DE MOI ",
+    "nomExpediteur" : "BOUBOU",
+    "canalUtilise" : "CONSOLE",
+    "dateEnvoi" : [ 2025, 6, 14, 19, 52, 57, 241122600 ]
+  }, {
+    "message" : "ISSA TU TE FOUS DE MOI ",
+    "nomExpediteur" : "BOUBOU",
+    "canalUtilise" : "EMAIL",
+    "dateEnvoi" : [ 2025, 6, 14, 19, 53, 1, 310163000 ]
+  } ],
+  "canauxAbonnes" : [ "CONSOLE", "EMAIL" ],
+  "estAbonneService" : true
+}, {
+  "id" : "E003",
+  "nom" : "Oumar",
+  "email" : "oumar@example.com",
+  "notificationsRecues" : [ ],
+  "canauxAbonnes" : [ ],
+  "estAbonneService" : false
+} ]
