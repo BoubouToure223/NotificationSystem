@@ -15,8 +15,10 @@ import java.util.Properties;
 public class EmailCanal implements Canal {
 
     // --- À CONFIGURER PAR VOS SOINS ---
-    private final String username = "REMOVED_EMAIL";
-    private final String password = "REMOVED_PASSWORD";
+    private final String username = System.getenv("EMAIL_USERNAME");
+    private final String password = System.getenv("EMAIL_PASSWORD");
+
+
     // ------------------------------------
 
     @Override
