@@ -1,14 +1,14 @@
 [ {
   "id" : "E001",
   "nom" : "BOUBOU",
-  "email" : "REMOVED_EMAIL",
+  "email" : "9346baba@gmail.com",
   "notificationsRecues" : [ ],
   "canauxAbonnes" : [ "CONSOLE" ],
   "estAbonneService" : true
 }, {
   "id" : "E002",
   "nom" : "Issa",
-  "email" : "REMOVED_EMAIL",
+  "email" : "9346baba@gmail.com",
   "notificationsRecues" : [ {
     "message" : "MERCI",
     "nomExpediteur" : "BOUBOU",

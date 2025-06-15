@@ -32,8 +32,8 @@ public class EmailCanal implements Canal {
         prop.put("mail.smtp.auth", "true");
         prop.put("mail.smtp.starttls.enable", "false"); // Disable TLS
         prop.put("mail.smtp.ssl.enable", "true");      // Enable SSL
-        prop.put("mail.smtp.host", "smtp.gmail.com");
-        prop.put("mail.smtp.port", "465");             // Use port 465 for SSL
+        prop.put("mail.smtp.host", System.getenv("SMTP_HOST"));
+        prop.put("mail.smtp.port", System.getenv("SMTP_PORT"));
 
         Session session = Session.getInstance(prop, new Authenticator() {
             @Override

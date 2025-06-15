@@ -53,8 +53,8 @@ public class ApplicationSystemeNotification {
             }
         } else {
             System.out.println("Échec du chargement ou fichier JSON vide, initialisation des données par défaut.");
-            tousLesEmployes.add(new Employe("E001", "BOUBOU", "REMOVED_EMAIL"));
-            tousLesEmployes.add(new Employe("E002", "Issa", "REMOVED_EMAIL"));
+            tousLesEmployes.add(new Employe("E001", "BOUBOU", "9346baba@gmail.com"));
+            tousLesEmployes.add(new Employe("E002", "Issa", "9346baba@gmail.com"));
             tousLesEmployes.add(new Employe("E003", "Oumar", "oumar@example.com"));
             sauvegarderDonnees(); // Sauvegarder les données par défaut
         }
